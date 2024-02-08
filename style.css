@@ -51,7 +51,7 @@ body {
     color: var(--primary-text-color);
 }   
 
-.wrapper-content h3 {
+.wrapper-content h2 {
     font-size: 12px;
     font-weight: 600;
     color: var(--secondary-link-color);
