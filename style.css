@@ -65,15 +65,10 @@ body {
 
 .wrapper-links ul {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
 }
 
-.wrapper-links ul a{
-    text-decoration: none;
-    padding: 0;
-}
-
-.wrapper-links li {
+.wrapper-links li{
     text-align: center;
     font-size: 12px;
     font-weight: 600;
@@ -83,6 +78,7 @@ body {
     padding: 12px 90px;
     border-radius: 5px;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .wrapper-links li:hover {
@@ -90,12 +86,13 @@ body {
     color: var(--primary-bg-color);
 }
 
+.wrapper-links li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: inherit; 
+}
+
 .footer-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     width: 500px;
     text-align: center;
     color: var(--secondary-text-color);
@@ -117,7 +114,7 @@ body {
 
 @media (max-width: 992px) {
  .footer-content{
-    justify-content: center;
+    justify-content: center !important;
     width: 300px;
  }   
 }
