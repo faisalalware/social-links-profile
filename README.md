@@ -58,7 +58,7 @@ To see how i learned variable in css, see below:
     --secondary-text-color:#f7f7f7;
 }
 
-/* used color codes stored in variable to apply on h1 & p tag, 
+/* used variables containing color codes to apply color on h1 & p tag, 
 rather than applying direct color codes to h1 & p tag css */
 .wrapper-content h1 {
     font-size: 20px;
