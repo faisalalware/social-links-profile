@@ -21,16 +21,19 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- See exact replica of social link profile design provided in template.
+- See responsive layout of design on mobile viewports.
+- See hover effect on social links as per design requirement.
+- See challenge by and completed by links in footer.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/faisalalware/social-links-profile)
-- Live Site URL: [Add live site URL here](https://faisalalware.github.io/social-links-profile/)
+- Solution URL: [https://github.com/faisalalware/social-links-profile](https://github.com/faisalalware/social-links-profile)
+- Live Site URL: [https://faisalalware.github.io/social-links-profile/](https://faisalalware.github.io/social-links-profile/)
 
 ## My process
 
@@ -49,19 +52,24 @@ This challenge helped me to refresh my HTML, CSS & Bootstrap skills. I've learne
 To see how i learned variable in css, see below:
 
 ```css
+/* used root selector to store color codes in variables */
 :root{
     --primary-text-color:#ffffff;
     --secondary-text-color:#f7f7f7;
-    --primary-bg-color:#141414;
-    --secondary-bg-color:#1F1F1F;
-    --primary-link-color:#333333;
-    --secondary-link-color:#c4f82a;
-    --default-link-color: #1063fd;
 }
 
-.wrapper-links li:hover {
-    background-color: var(--secondary-link-color);
-    color: var(--primary-bg-color);
+/* used color codes stored in variable to apply on h1 & p tag, 
+rather than applying direct color codes to h1 & p tag css */
+.wrapper-content h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-text-color); 
+} 
+
+.wrapper-content p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: var(--secondary-text-color);
 }
 ```
 ### Continued development
