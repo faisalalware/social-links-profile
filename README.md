@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/faisalalware/social-links-profile](https://github.com/faisalalware/social-links-profile)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-social-profile-card-using-html-css-and-bootstrap-3HSqJp2u_k](https://www.frontendmentor.io/solutions/responsive-social-profile-card-using-html-css-and-bootstrap-3HSqJp2u_k)
 - Live Site URL: [https://faisalalware.github.io/social-links-profile/](https://faisalalware.github.io/social-links-profile/)
 
 ## My process
